@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub | Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">StyleHub.</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#collection">Collection</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="cart">
+            🛒 Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Fashion That Defines You</h1>
+            <p>Discover the latest trends. Wear your confidence.</p>
+            <a href="#collection" class="shop-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="collection" id="collection">
+        <h2>Our Collection</h2>
+        <p class="subtitle">Explore our latest fashion arrivals</p>
+
+        <div class="products">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500" alt="Classic T-shirt">
+                <h3>Classic T-Shirt</h3>
+                <p>₹599</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500" alt="Denim Jeans">
+                <h3>Denim Jeans</h3>
+                <p>₹999</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500" alt="Women's Dress">
+                <h3>Women's Dress</h3>
+                <p>₹1299</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500" alt="Casual Shirt">
+                <h3>Casual Shirt</h3>
+                <p>₹799</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Welcome to StyleHub</h2>
+        <p>
+            StyleHub brings you modern fashion, quality clothing
+            and affordable prices. Find your style with us.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <h2>StyleHub.</h2>
+        <p>Email: stylehub@example.com</p>
+        <p>© 2026 StyleHub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
