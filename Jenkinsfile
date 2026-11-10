@@ -20,7 +20,7 @@ pipeline {
 
         stage('deploy') {
             agent {
-                label 'deploynode'
+                label 'deploy'
             }
             steps {
                 deleteDir()
